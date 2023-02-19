@@ -1,0 +1,4 @@
+name: JPAPlugin
+version: '${project.version}'
+main: pl.test.jpaplugin.JPAPlugin
+api-version: 1.19

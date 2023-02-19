@@ -1,0 +1,6 @@
+mysql: false
+ip: "192.168.0.1"
+port: 3306
+database: minecraft
+username: root
+password: xxx
