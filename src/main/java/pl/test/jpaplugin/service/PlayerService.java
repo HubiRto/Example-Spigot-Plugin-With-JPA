@@ -14,7 +14,9 @@ public class PlayerService {
     public void addPlayer(Player player){
         playerRepository.save(player);
     }
-    public List<Player> findAll(){
-        return playerRepository.findAll();
+
+    public Player findByFirstName(String firstName){
+        return playerRepository.findByFirstName(firstName);
     }
+
 }
